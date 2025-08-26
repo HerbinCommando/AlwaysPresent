@@ -27,16 +27,16 @@ public class PreprocessBuild : IPreprocessBuildWithReport
     {
         PlayerSettings.bundleVersion = version;
 
-        PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.iOS, bundleId);
-        PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, bundleId);
+        //PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.iOS, bundleId);
+        //PlayerSettings.SetApplicationIdentifier(BuildTargetGroup.Android, bundleId);
     }
 
     public void OnPreprocessBuild(BuildReport report)
     {
-        var buildNumber = GetBuildNumber();
-        PlayerSettings.Android.bundleVersionCode = buildNumber;
-        PlayerSettings.iOS.buildNumber = buildNumber.ToString();
+        //var buildNumber = GetBuildNumber();
+        //PlayerSettings.Android.bundleVersionCode = buildNumber;
+        //PlayerSettings.iOS.buildNumber = buildNumber.ToString();
 
-        UpdatePlayerSettings();
+        //UpdatePlayerSettings();
     }
 }

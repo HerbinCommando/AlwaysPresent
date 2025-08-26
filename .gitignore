@@ -1,0 +1,73 @@
+# =============== #
+# Unity Generated #
+# =============== #
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+UserSettings/
+
+# Crash reports
+sysinfo.txt
+
+# ============ #
+# Visual Studio #
+# ============ #
+
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# ================= #
+# OS Specific Stuff #
+# ================= #
+
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============== #
+# Build Artifacts #
+# ============== #
+
+*.apk
+*.aab
+*.unitypackage
+
+# ============== #
+# Cache / Others #
+# ============== #
+
+# Rider
+.idea/
+*.sln.iml
+
+# Gradle cache
+.gradle/
+
+# Unity Cache Server
+[Uu]ser[Ll]og/
+*.log
+
+# ======================================= #
+# Optional: Keep Packages but ignore lock #
+# ======================================= #
+Packages/packages-lock.json
